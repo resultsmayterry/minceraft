@@ -1,0 +1,1526 @@
+[13:12:43] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from 127.0.0.1:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLNavigateDense-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>false</AllowPassageOfTime></Time><Weather>clear</Weather><AllowSpawning>false</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><NavigationDecorator><randomPlacementProperties><maxRandomizedRadius>64</maxRandomizedRadius><minRandomizedRadius>64</minRandomizedRadius><maxRadius>8</maxRadius><minRadius>0</minRadius><block>diamond_block</block><placement>surface</placement></randomPlacementProperties><minRandomizedDistance>0</minRandomizedDistance><maxRandomizedDistance>8</maxRandomizedDistance><randomizeCompassLocation>true</randomizeCompassLocation></NavigationDecorator><ServerQuitFromTimeUp timeLimitMs="300000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="compass" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromCompass/><ObservationFromFullInventory flat="false"/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><RewardForTouchingBlockType><Block reward="100.0" type="diamond_block" behaviour="onceOnly"/></RewardForTouchingBlockType><RewardForDistanceTraveledToCompassTarget rewardPerBlock="1.0" density="PER_TICK"/><AgentQuitFromTouchingBlockType><Block type="diamond_block"/></AgentQuitFromTouchingBlockType></AgentHandlers></AgentSection></Mission><ExperimentUID>319628d2-fc47-4192-8136-f3424656ecf1</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[13:12:44] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:12:44] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[13:12:44] [Client thread/INFO]: [STDOUT]: Mission received: MineRLNavigateDense-v0
+[13:12:44] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[13:12:44] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[13:12:44] [Client thread/INFO]: [STDOUT]: Starting command server.
+[13:12:44] [Thread-12/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10528
+[13:12:44] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[13:12:44] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[13:12:44] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[13:12:44] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[13:12:44] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[13:12:45] [Client thread/INFO]: Mixing MixinWorldProviderSpawn from mixins.overclocking.malmomod.json into net.minecraft.world.WorldProvider
+[13:12:45] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[13:12:45] [Server thread/INFO]: Generating keypair
+[13:12:45] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[13:12:45] [Server thread/INFO]: Applying holder lookups
+[13:12:45] [Server thread/INFO]: Holder lookups applied
+[13:12:45] [Server thread/INFO]: Loading dimension 0 (TEMP_0_578c9282-f145-4c67-afa8-c21396671550) (net.minecraft.server.integrated.IntegratedServer@de46dac)
+[13:12:45] [Server thread/INFO]: Loading dimension 1 (TEMP_0_578c9282-f145-4c67-afa8-c21396671550) (net.minecraft.server.integrated.IntegratedServer@de46dac)
+[13:12:45] [Server thread/INFO]: Loading dimension -1 (TEMP_0_578c9282-f145-4c67-afa8-c21396671550) (net.minecraft.server.integrated.IntegratedServer@de46dac)
+[13:12:45] [Server thread/INFO]: Preparing start region for level 0
+[13:12:47] [Server thread/INFO]: Preparing spawn area: 15%
+[13:12:48] [Server thread/INFO]: Preparing spawn area: 31%
+[13:12:49] [Server thread/INFO]: Preparing spawn area: 49%
+[13:12:50] [Server thread/INFO]: Preparing spawn area: 67%
+[13:12:51] [Server thread/INFO]: Preparing spawn area: 89%
+[13:12:51] [Server thread/INFO]: Changing view distance to 4, from 10
+[13:12:52] [Server thread/INFO]: Mixing MixinLargeInventory from mixins.overclocking.malmomod.json into net.minecraft.entity.player.InventoryPlayer
+[13:12:52] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[13:12:52] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[13:12:52] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[13:12:52] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[13:12:52] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[13:12:52] [Netty Server IO #1/INFO]: Client protocol version 2
+[13:12:52] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[13:12:52] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[13:12:52] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[13:12:52] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[13:12:52] [Server thread/INFO]: [Server thread] Server side modded connection established
+[13:12:52] [Server thread/INFO]: MineRLAgent0[local:E:ba521c31] logged in with entity id 585 at (-264.5, 63.0, 206.5)
+[13:12:52] [Server thread/INFO]: MineRLAgent0 joined the game
+[13:12:52] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[13:12:52] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[13:12:52] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[13:12:52] [Server thread/INFO]: [STDOUT]: Mission received: MineRLNavigateDense-v0
+[13:12:52] [Server thread/INFO]: Received mission: §9MineRLNavigateDense-v0
+[13:12:52] [Server thread/INFO]: Source: §a127.0.0.1
+[13:12:52] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[13:12:52] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[13:12:52] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[13:12:53] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[13:12:53] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[13:12:53] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[13:12:53] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[13:12:53] [Client thread/INFO]: Mixing MixinRandomSkinTexture from mixins.overclocking.malmomod.json into net.minecraft.client.resources.DefaultPlayerSkin
+[13:12:53] [Client thread/INFO]: [CHAT] Received mission: §9MineRLNavigateDense-v0
+[13:12:53] [Client thread/INFO]: [CHAT] Source: §a127.0.0.1
+[13:12:53] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[13:12:53] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[13:12:53] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[13:12:53] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[13:12:53] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForTouchingBlockTypeImplementation@683e649 with agent name MineRLAgent0
+[13:12:53] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[13:12:53] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForDistanceTraveledToCompassTargetImplementation@2de7efef with agent name MineRLAgent0
+[13:12:53] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[13:12:53] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[13:12:53] [Client thread/INFO]: [STDOUT]: Resized the window
+[13:12:53] [Client thread/INFO]: [STDOUT]: Unpausing
+
+> Task :runClient FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':runClient'.
+> Process 'command 'C:\Program Files\Java\jdk1.8.0_333\bin\java.exe'' finished with non-zero exit value -805306369
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 2m 2s
+20 actionable tasks: 8 executed, 12 up-to-date
+
+> Configure project :
+This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.
+#################################################
+         ForgeGradle 2.2-SNAPSHOT-8de58cf        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+Found AccessTransformer: malmomod_at.cfg
+
+> Task :deobfCompileDummyTask
+> Task :deobfProvidedDummyTask
+> Task :getVersionJson
+> Task :extractUserdev UP-TO-DATE
+> Task :downloadClient SKIPPED
+> Task :downloadServer SKIPPED
+> Task :splitServerJar SKIPPED
+> Task :mergeJars SKIPPED
+> Task :applyBinaryPatches SKIPPED
+> Task :extractDependencyATs SKIPPED
+> Task :extractMcpData SKIPPED
+> Task :extractMcpMappings SKIPPED
+> Task :genSrgs SKIPPED
+> Task :deobfMcMCP UP-TO-DATE
+> Task :sourceApiJava UP-TO-DATE
+> Task :compileApiJava NO-SOURCE
+> Task :processApiResources NO-SOURCE
+> Task :apiClasses UP-TO-DATE
+> Task :copyModToClient UP-TO-DATE
+> Task :copyModToServer UP-TO-DATE
+> Task :copySrg UP-TO-DATE
+> Task :deleteSchemas
+> Task :copySchemas
+> Task :jaxb UP-TO-DATE
+> Task :sourceMainJava UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :jar UP-TO-DATE
+> Task :extractNatives SKIPPED
+> Task :getAssetIndex UP-TO-DATE
+> Task :getAssets
+> Task :makeStart
+
+> Task :runClient
+2022-06-06 13:13:50,657 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[13:13:50] [main/INFO]: Extra: []
+[13:13:50] [main/INFO]: Found and added coremod: com.microsoft.Malmo.OverclockingPlugin
+[13:13:50] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/dragm/.gradle/caches/minecraft/assets, --assetIndex, 1.11, --accessToken{REDACTED}, --version, 1.11.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[13:13:50] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:13:50] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:13:50] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:13:50] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:13:50] [main/INFO]: Forge Mod Loader version 13.20.1.2588 for Minecraft 1.11.2 loading
+[13:13:50] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_333, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_333\jre
+[13:13:50] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[13:13:50] [main/INFO]: Found a command line coremod : com.microsoft.Malmo.OverclockingPlugin
+[13:13:50] [main/WARN]: The coremod com.microsoft.Malmo.OverclockingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+2022-06-06 13:13:50,853 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2022-06-06 13:13:50,872 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[13:13:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.5 Source=file:/C:/Users/dragm/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.5-SNAPSHOT/c989878008c2c5ff1a7c6491c4103d8faa221d19/mixin-0.7.5-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
+/*********************************************************************************************************************************************************************************************************/
+/*                                                                            SpongePowered MIXIN (Verbose debugging enabled)                                                                            */
+/*********************************************************************************************************************************************************************************************************/
+/*                        Code source : file:/C:/Users/dragm/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.5-SNAPSHOT/c989878008c2c5ff1a7c6491c4103d8faa221d19/mixin-0.7.5-SNAPSHOT.jar */
+/*                   Internal Version : 0.7.5                                                                                                                                                            */
+/*                   Java 8 Supported : true                                                                                                                                                             */
+/*********************************************************************************************************************************************************************************************************/
+/*                       Service Name : LaunchWrapper                                                                                                                                                    */
+/*                      Service Class : org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper                                                                                                   */
+/*********************************************************************************************************************************************************************************************************/
+/*                        mixin.debug : <true>                                                                                                                                                           */
+/*                 mixin.debug.export : - <true>                                                                                                                                                         */
+/*          mixin.debug.export.filter : - - <null>                                                                                                                                                       */
+/*       mixin.debug.export.decompile : - - <true>                                                                                                                                                       */
+/* mixin.debug.export.decompile.async : - - - <true>                                                                                                                                                     */
+/*                 mixin.debug.verify : - <true>                                                                                                                                                         */
+/*                mixin.debug.verbose : - <true>                                                                                                                                                         */
+/*        mixin.debug.countInjections : - <true>                                                                                                                                                         */
+/*                 mixin.debug.strict : - <false>                                                                                                                                                        */
+/*          mixin.debug.strict.unique : - - <false>                                                                                                                                                      */
+/*         mixin.debug.strict.targets : - - <false>                                                                                                                                                      */
+/*               mixin.debug.profiler : - <true>                                                                                                                                                         */
+/*          mixin.dumpTargetOnFailure : <false>                                                                                                                                                          */
+/*                       mixin.checks : <false>                                                                                                                                                          */
+/*            mixin.checks.interfaces : - <false>                                                                                                                                                        */
+/*     mixin.checks.interfaces.strict : - - <false>                                                                                                                                                      */
+/*            mixin.ignoreConstraints : <false>                                                                                                                                                          */
+/*                      mixin.hotSwap : <false>                                                                                                                                                          */
+/*                          mixin.env : <false>                                                                                                                                                          */
+/*                      mixin.env.obf : - <false>                                                                                                                                                        */
+/*            mixin.env.disableRefMap : - <false>                                                                                                                                                        */
+/*              mixin.env.remapRefMap : - <true>                                                                                                                                                         */
+/*      mixin.env.refMapRemappingFile : - <>                                                                                                                                                             */
+/*       mixin.env.refMapRemappingEnv : - <searge>                                                                                                                                                       */
+/*           mixin.env.ignoreRequired : - <false>                                                                                                                                                        */
+/*              mixin.env.compatLevel : - <false>                                                                                                                                                        */
+/*         mixin.env.shiftByViolation : - <warn>                                                                                                                                                         */
+/*     mixin.initialiserInjectionMode : <default>                                                                                                                                                        */
+/*********************************************************************************************************************************************************************************************************/
+/*                      Detected Side : CLIENT                                                                                                                                                           */
+/*********************************************************************************************************************************************************************************************************/
+[13:13:50] [main/INFO]: Attempting to load Fernflower decompiler (Threaded mode)
+[13:13:50] [main/INFO]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[13:13:51] [main/INFO]: Compatibility level set to JAVA_8
+[13:13:51] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:13:51] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[13:13:51] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[13:13:51] [main/INFO]: Injecting location in coremod com.microsoft.Malmo.OverclockingPlugin
+[13:13:51] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:13:51] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:13:51] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:13:51] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:13:51] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:13:51] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:13:51] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:13:51] [main/INFO]: Preparing mixins for MixinEnvironment[PREINIT]
+[13:13:51] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[13:13:51] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[13:13:51] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:13:51] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:13:51] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:13:51] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@79c3f01f
+[13:13:51] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:13:51] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:13:51] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:13:51] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:13:51] [main/INFO]: Preparing mixins for MixinEnvironment[DEFAULT]
+[13:13:51] [main/INFO]: Selecting config mixins.overclocking.malmomod.json
+[13:13:51] [main/WARN]: Reference map 'mixins.malmo.refmap.json' for mixins.overclocking.malmomod.json could not be read. If this is a development environment you can ignore this message
+[13:13:51] [main/INFO]: Preparing mixins.overclocking.malmomod.json (12)
+[13:13:52] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:13:52] [main/INFO]: Mixing MixinMinecraftGameloop from mixins.overclocking.malmomod.json into net.minecraft.client.Minecraft
+[13:13:52] [main/INFO]: [com.microsoft.Malmo.OverclockingClassTransformer:insertTextureHandler:120]: MALMO: Found GlStateManager, attempting to transform it
+[13:13:52] [main/INFO]: [com.microsoft.Malmo.OverclockingClassTransformer:insertTextureHandler:126]: MALMO: Found GlStateManager.bindTexture() method, attempting to transform it
+[13:13:52] [main/INFO]: [com.microsoft.Malmo.OverclockingClassTransformer:insertTextureHandler:139]: MALMO: Hooked into call to GlStateManager.bindTexture()
+[13:13:52] [main/INFO]: A re-entrant transformer '$wrapper.com.microsoft.Malmo.OverclockingClassTransformer' was detected and will no longer process meta class data
+[13:13:52] [main/INFO]: Mixing MixinEntityRandom from mixins.overclocking.malmomod.json into net.minecraft.entity.Entity
+[13:13:52] [main/INFO]: [com.microsoft.Malmo.OverclockingClassTransformer:transform:42]: Transformed Name: net.minecraft.client.entity.EntityPlayerSP
+[13:13:52] [main/INFO]: [com.microsoft.Malmo.OverclockingClassTransformer:transform:42]: Transformed Name: net.minecraft.client.entity.AbstractClientPlayer
+[13:13:52] [Client thread/INFO]: Mixing MixinMinecraftServerRun from mixins.overclocking.malmomod.json into net.minecraft.server.MinecraftServer
+[13:13:52] [Client thread/WARN]: @Shadow target mixins.overclocking.malmomod.json:MixinMinecraftServerRun::statusResponse is final but shadow is not decorated with @Final
+[13:13:52] [Client thread/WARN]: @Shadow target mixins.overclocking.malmomod.json:MixinMinecraftServerRun::LOG is final but shadow is not decorated with @Final
+[13:13:52] [Client thread/INFO]: Setting user: Player188
+[13:13:54] [Client thread/INFO]: Mixing MixinSyncClientStats from mixins.overclocking.malmomod.json into net.minecraft.entity.player.EntityPlayerMP
+[13:13:54] [Client thread/INFO]: Mixing MixinMergeStatsFix from mixins.overclocking.malmomod.json into net.minecraft.stats.StatList
+[13:13:54] [Client thread/INFO]: Mixing MixinLargeInventorySlots from mixins.overclocking.malmomod.json into net.minecraft.inventory.ContainerPlayer
+[13:13:54] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:13:54] [Client thread/INFO]: LWJGL Version: 2.9.4
+[13:13:55] [Client thread/INFO]: [STDOUT]: MALMO: Found GlStateManager, attempting to transform it
+[13:13:55] [Client thread/INFO]: [STDOUT]: MALMO: Found GlStateManager.bindTexture() method, attempting to transform it
+[13:13:55] [Client thread/INFO]: [STDOUT]: MALMO: Hooked into call to GlStateManager.bindTexture()
+[13:13:55] [Client thread/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_333, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 602562496 bytes (574 MB) / 829947904 bytes (791 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 2 total; -Xdebug -Xmx2G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+OverclockingPlugin (MalmoMod-0.37.0.jar)
+  com.microsoft.Malmo.OverclockingClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 511.79' Renderer: 'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+[13:13:55] [Client thread/INFO]: MinecraftForge v13.20.1.2588 Initialized
+[13:13:55] [Client thread/INFO]: Replaced 232 ore recipes
+[13:13:55] [Client thread/INFO]: Mixing MixinForgeHookStatsFix from mixins.overclocking.malmomod.json into net.minecraftforge.common.ForgeHooks
+[13:13:55] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[13:13:55] [Client thread/INFO]: Searching C:\Users\dragm\AppData\Local\Temp\tmp4fqp5uvr\Minecraft\run\mods for mods
+[13:13:56] [Client thread/INFO]: Forge Mod Loader has identified 5 mods to load
+[13:13:56] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, malmomod] at CLIENT
+[13:13:56] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, malmomod] at SERVER
+[13:13:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Microsoft Malmo Mod
+[13:13:57] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:13:57] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:13:57] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:13:57] [Client thread/INFO]: Processing ObjectHolder annotations
+[13:13:57] [Client thread/INFO]: Found 1093 ObjectHolder annotations
+[13:13:57] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[13:13:57] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[13:13:57] [Client thread/INFO]: Applying holder lookups
+[13:13:57] [Client thread/INFO]: Holder lookups applied
+[13:13:57] [Client thread/INFO]: Applying holder lookups
+[13:13:57] [Client thread/INFO]: Holder lookups applied
+[13:13:57] [Client thread/INFO]: Applying holder lookups
+[13:13:57] [Client thread/INFO]: Holder lookups applied
+[13:13:57] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[13:13:57] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13:13:57] [Client thread/INFO]: [STDOUT]: Testing schemas against internal version number: 0.37
+[13:13:57] [Client thread/INFO]: [STDOUT]: [LOGTOPY] Performance directory not specified.
+[13:13:57] [Client thread/INFO]: [STDOUT]: [ERROR] Seed specified was $seed. Expected a long (integer).
+[13:13:57] [Client thread/INFO]: Applying holder lookups
+[13:13:57] [Client thread/INFO]: Holder lookups applied
+[13:13:57] [Client thread/INFO]: Injecting itemstacks
+[13:13:57] [Client thread/INFO]: Itemstack injection complete
+[13:13:57] [Thread-6/INFO]: Using sync timing. 200 frames of Display.update took 89994900 nanos
+[13:13:59] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:13:59] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[13:13:59] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:13:59] [Thread-8/INFO]: OpenAL initialized.
+[13:13:59] [Sound Library Loader/INFO]: Sound engine started
+[13:14:01] [Client thread/INFO]: Max texture size: 16384
+[13:14:01] [Client thread/INFO]: Created: 16x16 textures-atlas
+[13:14:02] [Client thread/INFO]: Mixing MixinUpdateChunksNoTimeout from mixins.overclocking.malmomod.json into net.minecraft.client.renderer.RenderGlobal
+[13:14:02] [Client thread/INFO]: Mixing MixinNoGuiInteract from mixins.overclocking.malmomod.json into net.minecraft.client.multiplayer.PlayerControllerMP
+[13:14:02] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_MOD_READY
+[13:14:02] [Client thread/INFO]: Injecting itemstacks
+[13:14:02] [Client thread/INFO]: Itemstack injection complete
+[13:14:02] [Client thread/INFO]: Forge Mod Loader has successfully loaded 5 mods
+[13:14:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Microsoft Malmo Mod
+[13:14:02] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:14:02] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:14:02] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:14:03] [Client thread/INFO]: SoundSystem shutting down...
+[13:14:04] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:14:04] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:14:04] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[13:14:04] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:14:04] [Thread-10/INFO]: OpenAL initialized.
+[13:14:04] [Sound Library Loader/INFO]: Sound engine started
+[13:14:06] [Client thread/INFO]: Max texture size: 16384
+[13:14:06] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:14:07] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:14:07] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_MOD_READY
+[13:14:07] [Client thread/INFO]: [STDOUT]: ***** Start MalmoEnvServer on port 9505
+[13:14:07] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[13:14:07] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[13:14:08] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+
+> Task :runClient FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':runClient'.
+> Process 'command 'C:\Program Files\Java\jdk1.8.0_333\bin\java.exe'' finished with non-zero exit value -805306369
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 1m 10s
+20 actionable tasks: 8 executed, 12 up-to-date
+
+> Configure project :
+This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.
+#################################################
+         ForgeGradle 2.2-SNAPSHOT-8de58cf        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+Found AccessTransformer: malmomod_at.cfg
+
+> Task :deobfCompileDummyTask
+> Task :deobfProvidedDummyTask
+> Task :getVersionJson
+> Task :extractUserdev UP-TO-DATE
+> Task :downloadClient SKIPPED
+> Task :downloadServer SKIPPED
+> Task :splitServerJar SKIPPED
+> Task :mergeJars SKIPPED
+> Task :applyBinaryPatches SKIPPED
+> Task :extractDependencyATs SKIPPED
+> Task :extractMcpData SKIPPED
+> Task :extractMcpMappings SKIPPED
+> Task :genSrgs SKIPPED
+
+> Task :deobfMcMCP
+Applying SpecialSource...
+Applying Exceptor...
+Applying RuntimeInvisibleParameterAnnotations workaround...
+
+> Task :sourceApiJava UP-TO-DATE
+> Task :compileApiJava NO-SOURCE
+> Task :processApiResources NO-SOURCE
+> Task :apiClasses UP-TO-DATE
+> Task :copyModToClient UP-TO-DATE
+> Task :copyModToServer UP-TO-DATE
+> Task :copySrg FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Failed to capture fingerprint of output files for task ':copySrg' property 'destinationDir' during up-to-date check.
+> Failed to create MD5 hash for file 'C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\tmp\deobfMcMCP\workaround.jar' as it does not exist.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 27s
+9 actionable tasks: 5 executed, 4 up-to-date
+
+> Configure project :
+This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.
+#################################################
+         ForgeGradle 2.2-SNAPSHOT-8de58cf        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+Found AccessTransformer: malmomod_at.cfg
+
+> Task :deobfCompileDummyTask
+> Task :deobfProvidedDummyTask
+> Task :getVersionJson
+> Task :extractUserdev UP-TO-DATE
+> Task :downloadClient SKIPPED
+> Task :downloadServer SKIPPED
+> Task :splitServerJar SKIPPED
+> Task :mergeJars SKIPPED
+> Task :applyBinaryPatches SKIPPED
+> Task :extractDependencyATs SKIPPED
+> Task :extractMcpData SKIPPED
+> Task :extractMcpMappings SKIPPED
+> Task :genSrgs SKIPPED
+> Task :deobfMcMCP UP-TO-DATE
+> Task :sourceApiJava UP-TO-DATE
+> Task :compileApiJava NO-SOURCE
+> Task :processApiResources NO-SOURCE
+> Task :apiClasses UP-TO-DATE
+> Task :copyModToClient UP-TO-DATE
+> Task :copyModToServer UP-TO-DATE
+> Task :copySrg UP-TO-DATE
+> Task :deleteSchemas
+> Task :copySchemas
+> Task :jaxb UP-TO-DATE
+> Task :sourceMainJava UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :jar UP-TO-DATE
+> Task :extractNatives SKIPPED
+> Task :getAssetIndex UP-TO-DATE
+> Task :getAssets
+> Task :makeStart
+
+> Task :runClient
+2022-06-06 13:15:34,153 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[13:15:34] [main/INFO]: Extra: []
+[13:15:34] [main/INFO]: Found and added coremod: com.microsoft.Malmo.OverclockingPlugin
+[13:15:34] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/dragm/.gradle/caches/minecraft/assets, --assetIndex, 1.11, --accessToken{REDACTED}, --version, 1.11.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[13:15:34] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:15:34] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:15:34] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:15:34] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:15:34] [main/INFO]: Forge Mod Loader version 13.20.1.2588 for Minecraft 1.11.2 loading
+[13:15:34] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_333, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_333\jre
+[13:15:34] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[13:15:34] [main/INFO]: Found a command line coremod : com.microsoft.Malmo.OverclockingPlugin
+[13:15:34] [main/WARN]: The coremod com.microsoft.Malmo.OverclockingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+2022-06-06 13:15:34,354 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2022-06-06 13:15:34,372 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[13:15:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.5 Source=file:/C:/Users/dragm/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.5-SNAPSHOT/c989878008c2c5ff1a7c6491c4103d8faa221d19/mixin-0.7.5-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
+/*********************************************************************************************************************************************************************************************************/
+/*                                                                            SpongePowered MIXIN (Verbose debugging enabled)                                                                            */
+/*********************************************************************************************************************************************************************************************************/
+/*                        Code source : file:/C:/Users/dragm/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.5-SNAPSHOT/c989878008c2c5ff1a7c6491c4103d8faa221d19/mixin-0.7.5-SNAPSHOT.jar */
+/*                   Internal Version : 0.7.5                                                                                                                                                            */
+/*                   Java 8 Supported : true                                                                                                                                                             */
+/*********************************************************************************************************************************************************************************************************/
+/*                       Service Name : LaunchWrapper                                                                                                                                                    */
+/*                      Service Class : org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper                                                                                                   */
+/*********************************************************************************************************************************************************************************************************/
+/*                        mixin.debug : <true>                                                                                                                                                           */
+/*                 mixin.debug.export : - <true>                                                                                                                                                         */
+/*          mixin.debug.export.filter : - - <null>                                                                                                                                                       */
+/*       mixin.debug.export.decompile : - - <true>                                                                                                                                                       */
+/* mixin.debug.export.decompile.async : - - - <true>                                                                                                                                                     */
+/*                 mixin.debug.verify : - <true>                                                                                                                                                         */
+/*                mixin.debug.verbose : - <true>                                                                                                                                                         */
+/*        mixin.debug.countInjections : - <true>                                                                                                                                                         */
+/*                 mixin.debug.strict : - <false>                                                                                                                                                        */
+/*          mixin.debug.strict.unique : - - <false>                                                                                                                                                      */
+/*         mixin.debug.strict.targets : - - <false>                                                                                                                                                      */
+/*               mixin.debug.profiler : - <true>                                                                                                                                                         */
+/*          mixin.dumpTargetOnFailure : <false>                                                                                                                                                          */
+/*                       mixin.checks : <false>                                                                                                                                                          */
+/*            mixin.checks.interfaces : - <false>                                                                                                                                                        */
+/*     mixin.checks.interfaces.strict : - - <false>                                                                                                                                                      */
+/*            mixin.ignoreConstraints : <false>                                                                                                                                                          */
+/*                      mixin.hotSwap : <false>                                                                                                                                                          */
+/*                          mixin.env : <false>                                                                                                                                                          */
+/*                      mixin.env.obf : - <false>                                                                                                                                                        */
+/*            mixin.env.disableRefMap : - <false>                                                                                                                                                        */
+/*              mixin.env.remapRefMap : - <true>                                                                                                                                                         */
+/*      mixin.env.refMapRemappingFile : - <>                                                                                                                                                             */
+/*       mixin.env.refMapRemappingEnv : - <searge>                                                                                                                                                       */
+/*           mixin.env.ignoreRequired : - <false>                                                                                                                                                        */
+/*              mixin.env.compatLevel : - <false>                                                                                                                                                        */
+/*         mixin.env.shiftByViolation : - <warn>                                                                                                                                                         */
+/*     mixin.initialiserInjectionMode : <default>                                                                                                                                                        */
+/*********************************************************************************************************************************************************************************************************/
+/*                      Detected Side : CLIENT                                                                                                                                                           */
+/*********************************************************************************************************************************************************************************************************/
+[13:15:34] [main/INFO]: Attempting to load Fernflower decompiler (Threaded mode)
+[13:15:34] [main/INFO]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[13:15:34] [main/INFO]: Compatibility level set to JAVA_8
+[13:15:34] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:15:34] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[13:15:34] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[13:15:34] [main/INFO]: Injecting location in coremod com.microsoft.Malmo.OverclockingPlugin
+[13:15:34] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:15:34] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:15:34] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:15:34] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:15:34] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:15:34] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:15:34] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:15:34] [main/INFO]: Preparing mixins for MixinEnvironment[PREINIT]
+[13:15:34] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[13:15:34] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[13:15:34] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:15:34] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:15:34] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[13:15:34] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@79c3f01f
+[13:15:34] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:15:35] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:15:35] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:15:35] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:15:35] [main/INFO]: Preparing mixins for MixinEnvironment[DEFAULT]
+[13:15:35] [main/INFO]: Selecting config mixins.overclocking.malmomod.json
+[13:15:35] [main/WARN]: Reference map 'mixins.malmo.refmap.json' for mixins.overclocking.malmomod.json could not be read. If this is a development environment you can ignore this message
+[13:15:35] [main/INFO]: Preparing mixins.overclocking.malmomod.json (12)
+[13:15:35] [main/INFO]: Prepared 12 mixins in 0.268 sec (22.3ms avg) (18ms load, 177ms transform, 0ms plugin)
+[13:15:35] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:15:35] [main/INFO]: Mixing MixinMinecraftGameloop from mixins.overclocking.malmomod.json into net.minecraft.client.Minecraft
+[13:15:35] [main/INFO]: [com.microsoft.Malmo.OverclockingClassTransformer:insertTextureHandler:120]: MALMO: Found GlStateManager, attempting to transform it
+[13:15:35] [main/INFO]: [com.microsoft.Malmo.OverclockingClassTransformer:insertTextureHandler:126]: MALMO: Found GlStateManager.bindTexture() method, attempting to transform it
+[13:15:35] [main/INFO]: [com.microsoft.Malmo.OverclockingClassTransformer:insertTextureHandler:139]: MALMO: Hooked into call to GlStateManager.bindTexture()
+[13:15:35] [main/INFO]: A re-entrant transformer '$wrapper.com.microsoft.Malmo.OverclockingClassTransformer' was detected and will no longer process meta class data
+[13:15:35] [main/INFO]: Mixing MixinEntityRandom from mixins.overclocking.malmomod.json into net.minecraft.entity.Entity
+[13:15:36] [main/INFO]: [com.microsoft.Malmo.OverclockingClassTransformer:transform:42]: Transformed Name: net.minecraft.client.entity.EntityPlayerSP
+[13:15:36] [main/INFO]: [com.microsoft.Malmo.OverclockingClassTransformer:transform:42]: Transformed Name: net.minecraft.client.entity.AbstractClientPlayer
+[13:15:36] [Client thread/INFO]: Mixing MixinMinecraftServerRun from mixins.overclocking.malmomod.json into net.minecraft.server.MinecraftServer
+[13:15:36] [Client thread/WARN]: @Shadow target mixins.overclocking.malmomod.json:MixinMinecraftServerRun::statusResponse is final but shadow is not decorated with @Final
+[13:15:36] [Client thread/WARN]: @Shadow target mixins.overclocking.malmomod.json:MixinMinecraftServerRun::LOG is final but shadow is not decorated with @Final
+[13:15:36] [Client thread/INFO]: Setting user: Player727
+[13:15:37] [Client thread/INFO]: Mixing MixinSyncClientStats from mixins.overclocking.malmomod.json into net.minecraft.entity.player.EntityPlayerMP
+[13:15:37] [Client thread/INFO]: Mixing MixinMergeStatsFix from mixins.overclocking.malmomod.json into net.minecraft.stats.StatList
+[13:15:38] [Client thread/INFO]: Mixing MixinLargeInventorySlots from mixins.overclocking.malmomod.json into net.minecraft.inventory.ContainerPlayer
+[13:15:38] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:15:38] [Client thread/INFO]: LWJGL Version: 2.9.4
+[13:15:38] [Client thread/INFO]: [STDOUT]: MALMO: Found GlStateManager, attempting to transform it
+[13:15:38] [Client thread/INFO]: [STDOUT]: MALMO: Found GlStateManager.bindTexture() method, attempting to transform it
+[13:15:38] [Client thread/INFO]: [STDOUT]: MALMO: Hooked into call to GlStateManager.bindTexture()
+[13:15:39] [Client thread/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_333, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 580112176 bytes (553 MB) / 815792128 bytes (778 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 2 total; -Xdebug -Xmx2G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+OverclockingPlugin (MalmoMod-0.37.0.jar)
+  com.microsoft.Malmo.OverclockingClassTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 511.79' Renderer: 'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+[13:15:39] [Client thread/INFO]: MinecraftForge v13.20.1.2588 Initialized
+[13:15:39] [Client thread/INFO]: Replaced 232 ore recipes
+[13:15:39] [Client thread/INFO]: Mixing MixinForgeHookStatsFix from mixins.overclocking.malmomod.json into net.minecraftforge.common.ForgeHooks
+[13:15:39] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[13:15:39] [Client thread/INFO]: Searching C:\Users\dragm\AppData\Local\Temp\tmp4fqp5uvr\Minecraft\run\mods for mods
+[13:15:40] [Client thread/INFO]: Forge Mod Loader has identified 5 mods to load
+[13:15:40] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, malmomod] at CLIENT
+[13:15:40] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, malmomod] at SERVER
+[13:15:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Microsoft Malmo Mod
+[13:15:41] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:15:41] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:15:41] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:15:41] [Client thread/INFO]: Processing ObjectHolder annotations
+[13:15:41] [Client thread/INFO]: Found 1093 ObjectHolder annotations
+[13:15:41] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[13:15:41] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[13:15:41] [Client thread/INFO]: Applying holder lookups
+[13:15:41] [Client thread/INFO]: Holder lookups applied
+[13:15:41] [Client thread/INFO]: Applying holder lookups
+[13:15:41] [Client thread/INFO]: Holder lookups applied
+[13:15:41] [Client thread/INFO]: Applying holder lookups
+[13:15:41] [Client thread/INFO]: Holder lookups applied
+[13:15:41] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[13:15:41] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13:15:41] [Client thread/INFO]: [STDOUT]: Testing schemas against internal version number: 0.37
+[13:15:41] [Client thread/INFO]: [STDOUT]: [LOGTOPY] Performance directory not specified.
+[13:15:41] [Client thread/INFO]: [STDOUT]: [ERROR] Seed specified was $seed. Expected a long (integer).
+[13:15:41] [Client thread/INFO]: Applying holder lookups
+[13:15:41] [Client thread/INFO]: Holder lookups applied
+[13:15:41] [Client thread/INFO]: Injecting itemstacks
+[13:15:41] [Client thread/INFO]: Itemstack injection complete
+[13:15:41] [Thread-6/INFO]: Using sync timing. 200 frames of Display.update took 95711300 nanos
+[13:15:42] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:15:43] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[13:15:43] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:15:43] [Thread-8/INFO]: OpenAL initialized.
+[13:15:43] [Sound Library Loader/INFO]: Sound engine started
+[13:15:45] [Client thread/INFO]: Max texture size: 16384
+[13:15:45] [Client thread/INFO]: Created: 16x16 textures-atlas
+[13:15:45] [Client thread/INFO]: Mixing MixinUpdateChunksNoTimeout from mixins.overclocking.malmomod.json into net.minecraft.client.renderer.RenderGlobal
+[13:15:45] [Client thread/INFO]: Mixing MixinNoGuiInteract from mixins.overclocking.malmomod.json into net.minecraft.client.multiplayer.PlayerControllerMP
+[13:15:45] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_MOD_READY
+[13:15:45] [Client thread/INFO]: Injecting itemstacks
+[13:15:45] [Client thread/INFO]: Itemstack injection complete
+[13:15:45] [Client thread/INFO]: Forge Mod Loader has successfully loaded 5 mods
+[13:15:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Microsoft Malmo Mod
+[13:15:45] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:15:45] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:15:45] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in C:\Users\dragm\AppData\Roaming\Python\Python310\site-packages\minerl\Malmo\Minecraft\build\libs\MalmoMod-0.37.0.jar
+[13:15:47] [Client thread/INFO]: SoundSystem shutting down...
+[13:15:47] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:15:47] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:15:47] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[13:15:47] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:15:47] [Thread-10/INFO]: OpenAL initialized.
+[13:15:48] [Sound Library Loader/INFO]: Sound engine started
+[13:15:49] [Client thread/INFO]: Max texture size: 16384
+[13:15:49] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:15:50] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:15:50] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_MOD_READY
+[13:15:50] [Client thread/INFO]: [STDOUT]: ***** Start MalmoEnvServer on port 9505
+[13:15:50] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[13:15:50] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[13:15:51] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:16:14] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from 127.0.0.1:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLNavigateDense-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>false</AllowPassageOfTime></Time><Weather>clear</Weather><AllowSpawning>false</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><NavigationDecorator><randomPlacementProperties><maxRandomizedRadius>64</maxRandomizedRadius><minRandomizedRadius>64</minRandomizedRadius><maxRadius>8</maxRadius><minRadius>0</minRadius><block>diamond_block</block><placement>surface</placement></randomPlacementProperties><minRandomizedDistance>0</minRandomizedDistance><maxRandomizedDistance>8</maxRandomizedDistance><randomizeCompassLocation>true</randomizeCompassLocation></NavigationDecorator><ServerQuitFromTimeUp timeLimitMs="300000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="compass" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromCompass/><ObservationFromFullInventory flat="false"/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><RewardForTouchingBlockType><Block reward="100.0" type="diamond_block" behaviour="onceOnly"/></RewardForTouchingBlockType><RewardForDistanceTraveledToCompassTarget rewardPerBlock="1.0" density="PER_TICK"/><AgentQuitFromTouchingBlockType><Block type="diamond_block"/></AgentQuitFromTouchingBlockType></AgentHandlers></AgentSection></Mission><ExperimentUID>33dc18f7-ab18-48ee-afb7-4c827a1d5af0</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[13:16:15] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[13:16:15] [Client thread/INFO]: [STDOUT]: Mission received: MineRLNavigateDense-v0
+[13:16:15] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[13:16:15] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[13:16:15] [Client thread/INFO]: [STDOUT]: Starting command server.
+[13:16:15] [Thread-13/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10766
+[13:16:15] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[13:16:15] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[13:16:15] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[13:16:15] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[13:16:15] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[13:16:16] [Client thread/INFO]: Mixing MixinWorldProviderSpawn from mixins.overclocking.malmomod.json into net.minecraft.world.WorldProvider
+[13:16:16] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[13:16:16] [Server thread/INFO]: Generating keypair
+[13:16:16] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[13:16:16] [Server thread/INFO]: Applying holder lookups
+[13:16:16] [Server thread/INFO]: Holder lookups applied
+[13:16:16] [Server thread/INFO]: Loading dimension 0 (TEMP_0_ff693a07-cee5-4549-b299-e83b17fde7a6) (net.minecraft.server.integrated.IntegratedServer@6b926f50)
+[13:16:16] [Server thread/INFO]: Loading dimension 1 (TEMP_0_ff693a07-cee5-4549-b299-e83b17fde7a6) (net.minecraft.server.integrated.IntegratedServer@6b926f50)
+[13:16:16] [Server thread/INFO]: Loading dimension -1 (TEMP_0_ff693a07-cee5-4549-b299-e83b17fde7a6) (net.minecraft.server.integrated.IntegratedServer@6b926f50)
+[13:16:16] [Server thread/INFO]: Preparing start region for level 0
+[13:16:17] [Server thread/INFO]: Preparing spawn area: 21%
+[13:16:18] [Server thread/INFO]: Preparing spawn area: 48%
+[13:16:19] [Server thread/INFO]: Preparing spawn area: 76%
+[13:16:20] [Server thread/INFO]: Changing view distance to 4, from 10
+[13:16:21] [Client thread/INFO]: Deleting level TEMP_0_578c9282-f145-4c67-afa8-c21396671550
+[13:16:21] [Client thread/INFO]: Attempt 1...
+[13:16:21] [Server thread/INFO]: Mixing MixinLargeInventory from mixins.overclocking.malmomod.json into net.minecraft.entity.player.InventoryPlayer
+[13:16:21] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[13:16:21] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[13:16:21] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[13:16:21] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[13:16:21] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[13:16:21] [Netty Server IO #1/INFO]: Client protocol version 2
+[13:16:21] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[13:16:21] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[13:16:21] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[13:16:21] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[13:16:21] [Server thread/INFO]: [Server thread] Server side modded connection established
+[13:16:21] [Server thread/INFO]: MineRLAgent0[local:E:42f1639a] logged in with entity id 613 at (11.5, 70.0, -8.5)
+[13:16:21] [Server thread/INFO]: MineRLAgent0 joined the game
+[13:16:21] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[13:16:21] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[13:16:21] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[13:16:21] [Server thread/INFO]: [STDOUT]: Mission received: MineRLNavigateDense-v0
+[13:16:21] [Server thread/INFO]: Received mission: §9MineRLNavigateDense-v0
+[13:16:21] [Server thread/INFO]: Source: §a127.0.0.1
+[13:16:21] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[13:16:21] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[13:16:21] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[13:16:21] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[13:16:21] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[13:16:21] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[13:16:22] [Client thread/INFO]: [CHAT] Received mission: §9MineRLNavigateDense-v0
+[13:16:22] [Client thread/INFO]: [CHAT] Source: §a127.0.0.1
+[13:16:22] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[13:16:22] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[13:16:22] [Client thread/INFO]: Mixing MixinRandomSkinTexture from mixins.overclocking.malmomod.json into net.minecraft.client.resources.DefaultPlayerSkin
+[13:16:22] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[13:16:22] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[13:16:22] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForTouchingBlockTypeImplementation@fabfb36 with agent name MineRLAgent0
+[13:16:22] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForDistanceTraveledToCompassTargetImplementation@58c23786 with agent name MineRLAgent0
+[13:16:22] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[13:16:22] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[13:16:22] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[13:16:22] [Client thread/INFO]: [STDOUT]: Resized the window
+[13:16:22] [Client thread/INFO]: [STDOUT]: Unpausing
+[13:16:27] [Server thread/INFO]: [STDOUT]: Warning: managed 5/20 ticks this second.
+[13:16:37] [Client thread/INFO]: [STDOUT]: 2.0 damage from fall by entity null
+[13:16:52] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:52] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:52] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Server thread/INFO]: MineRLAgent0 drowned
+[13:16:53] [Client thread/INFO]: [STDOUT]: 2.0 damage from drown by entity null
+[13:16:53] [Client thread/INFO]: [CHAT] MineRLAgent0 drowned
+[13:16:54] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[13:16:54] [Client thread/INFO]: [STDOUT]: Unpausing
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: IDLING
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT enter state: IDLING
+[13:16:54] [Server thread/INFO]: [STDOUT]: WHY IS THIS NOT WORKING
+[13:16:54] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[13:16:54] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[13:16:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 14ms behind, skipping 0 tick(s)
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[13:16:54] [Client thread/INFO]: [STDOUT]: inform the agent
+[13:16:54] [Client thread/INFO]: [STDOUT]: STATE ERROR - multiple states in the queue.
+[13:16:54] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[13:17:01] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[13:17:01] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[13:17:01] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[13:17:01] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[13:17:01] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[13:17:02] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[13:17:02] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+[13:17:14] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from 127.0.0.1:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>MineRLNavigateDense-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>6000</StartTime><AllowPassageOfTime>false</AllowPassageOfTime></Time><Weather>clear</Weather><AllowSpawning>false</AllowSpawning></ServerInitialConditions><ServerHandlers><DefaultWorldGenerator forceReset="true" generatorOptions="{}"/><NavigationDecorator><randomPlacementProperties><maxRandomizedRadius>64</maxRandomizedRadius><minRandomizedRadius>64</minRandomizedRadius><maxRadius>8</maxRadius><minRadius>0</minRadius><block>diamond_block</block><placement>surface</placement></randomPlacementProperties><minRandomizedDistance>0</minRandomizedDistance><maxRandomizedDistance>8</maxRandomizedDistance><randomizeCompassLocation>true</randomizeCompassLocation></NavigationDecorator><ServerQuitFromTimeUp timeLimitMs="300000" description="out_of_time"/><ServerQuitWhenAnyAgentFinishes/></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="compass" metadata="0" quantity="1"/></Inventory></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromCompass/><ObservationFromFullInventory flat="false"/><HumanLevelCommands/><CameraCommands/><PlaceCommands/><RewardForTouchingBlockType><Block reward="100.0" type="diamond_block" behaviour="onceOnly"/></RewardForTouchingBlockType><RewardForDistanceTraveledToCompassTarget rewardPerBlock="1.0" density="PER_TICK"/><AgentQuitFromTouchingBlockType><Block type="diamond_block"/></AgentQuitFromTouchingBlockType></AgentHandlers></AgentSection></Mission><ExperimentUID>e790bb59-efb9-4aa0-aa44-b75ea35b194f</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[13:17:14] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[13:17:14] [Client thread/INFO]: [STDOUT]: Mission received: MineRLNavigateDense-v0
+[13:17:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[13:17:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[13:17:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[13:17:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[13:17:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: PAUSING_OLD_SERVER
+[13:17:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: PAUSING_OLD_SERVER
+[13:17:14] [Server thread/INFO]: Saving and pausing game...
+[13:17:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ff693a07-cee5-4549-b299-e83b17fde7a6'/Overworld
+[13:17:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ff693a07-cee5-4549-b299-e83b17fde7a6'/Nether
+[13:17:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ff693a07-cee5-4549-b299-e83b17fde7a6'/The End
+[13:17:14] [Client thread/INFO]: [STDOUT]: CLIENT request state: CLOSING_OLD_SERVER
+[13:17:14] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CLOSING_OLD_SERVER
+[13:17:14] [Client thread/INFO]: [STDOUT]: Unpausing
+[13:17:14] [Server thread/INFO]: Stopping server
+[13:17:14] [Server thread/INFO]: Saving players
+[13:17:14] [Server thread/INFO]: MineRLAgent0 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[13:17:14] [Server thread/INFO]: MineRLAgent0 left the game
+[13:17:14] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[13:17:14] [Server thread/INFO]: Saving worlds
+[13:17:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ff693a07-cee5-4549-b299-e83b17fde7a6'/Overworld
+[13:17:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ff693a07-cee5-4549-b299-e83b17fde7a6'/Nether
+[13:17:14] [Server thread/INFO]: Saving chunks for level 'TEMP_0_ff693a07-cee5-4549-b299-e83b17fde7a6'/The End
+[13:17:14] [Server thread/INFO]: [STDOUT]: Unpausing
+[13:17:14] [Server thread/INFO]: [STDOUT]: Unpausing
+[13:17:14] [Server thread/INFO]: [STDOUT]: Unpausing
+[13:17:14] [Server thread/INFO]: Unloading dimension 0
+[13:17:14] [Server thread/INFO]: Unloading dimension -1
+[13:17:14] [Server thread/INFO]: Unloading dimension 1
+[13:17:14] [Server thread/INFO]: Applying holder lookups
+[13:17:14] [Server thread/INFO]: Holder lookups applied
+[13:17:25] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[13:17:25] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[13:17:25] [Client thread/INFO]: [STDOUT]: [LOGTOPY] GENERATOR OPTIONS = {}
+[13:17:25] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[13:17:25] [Server thread/INFO]: Generating keypair
+[13:17:25] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[13:17:25] [Server thread/INFO]: Applying holder lookups
+[13:17:25] [Server thread/INFO]: Holder lookups applied
+[13:17:25] [Server thread/INFO]: Loading dimension 0 (TEMP_0_8a2ab6ed-bf08-45b5-abb1-b47abadbd6fc) (net.minecraft.server.integrated.IntegratedServer@3902ebdf)
+[13:17:25] [Server thread/INFO]: Loading dimension 1 (TEMP_0_8a2ab6ed-bf08-45b5-abb1-b47abadbd6fc) (net.minecraft.server.integrated.IntegratedServer@3902ebdf)
+[13:17:25] [Server thread/INFO]: Loading dimension -1 (TEMP_0_8a2ab6ed-bf08-45b5-abb1-b47abadbd6fc) (net.minecraft.server.integrated.IntegratedServer@3902ebdf)
+[13:17:25] [Server thread/INFO]: Preparing start region for level 0
+[13:17:26] [Server thread/INFO]: Preparing spawn area: 21%
+[13:17:27] [Server thread/INFO]: Preparing spawn area: 44%
+[13:17:28] [Server thread/INFO]: Preparing spawn area: 62%
+[13:17:29] [Server thread/INFO]: Preparing spawn area: 78%
+[13:17:30] [Server thread/INFO]: Preparing spawn area: 94%
+[13:17:31] [Server thread/INFO]: Changing view distance to 4, from 10
+[13:17:31] [Client thread/INFO]: Deleting level TEMP_0_ff693a07-cee5-4549-b299-e83b17fde7a6
+[13:17:31] [Client thread/INFO]: Attempt 1...
+[13:17:31] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[13:17:31] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[13:17:31] [Netty Local Client IO #1/INFO]: Server protocol version 2
+[13:17:31] [Netty Server IO #3/INFO]: Client protocol version 2
+[13:17:31] [Netty Server IO #3/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[13:17:31] [Netty Local Client IO #1/INFO]: [Netty Local Client IO #1] Client side modded connection established
+[13:17:31] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[13:17:31] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[13:17:31] [Server thread/INFO]: [Server thread] Server side modded connection established
+[13:17:31] [Server thread/INFO]: MineRLAgent0[local:E:a727615b] logged in with entity id 2674 at (82.5, 73.0, 269.5)
+[13:17:31] [Server thread/INFO]: MineRLAgent0 joined the game
+[13:17:31] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[13:17:31] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[13:17:31] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[13:17:31] [Server thread/INFO]: [STDOUT]: Mission received: MineRLNavigateDense-v0
+[13:17:31] [Server thread/INFO]: Received mission: §9MineRLNavigateDense-v0
+[13:17:31] [Server thread/INFO]: Source: §a127.0.0.1
+[13:17:31] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[13:17:31] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[13:17:31] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[13:17:32] [Client thread/INFO]: [CHAT] Received mission: §9MineRLNavigateDense-v0
+[13:17:32] [Client thread/INFO]: [CHAT] Source: §a127.0.0.1
+[13:17:32] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[13:17:32] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[13:17:32] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[13:17:32] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[13:17:32] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[13:17:32] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[13:17:32] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[13:17:32] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[13:17:32] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[13:17:32] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForTouchingBlockTypeImplementation@39f9bb25 with agent name MineRLAgent0
+[13:17:32] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForDistanceTraveledToCompassTargetImplementation@3a2741f9 with agent name MineRLAgent0
+[13:17:32] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[13:17:32] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[13:17:32] [Client thread/INFO]: [STDOUT]: Resized the window
+[13:17:32] [Client thread/INFO]: [STDOUT]: Unpausing
+[13:18:19] [Client thread/INFO]: [CHAT] §l29...
+[13:18:19] [Client thread/INFO]: [CHAT] §l28...
+[13:18:19] [Client thread/INFO]: [CHAT] §l27...
+[13:18:19] [Client thread/INFO]: [CHAT] §l26...
+[13:18:19] [Client thread/INFO]: [CHAT] §l25...
+[13:18:19] [Client thread/INFO]: [CHAT] §l24...
+[13:18:19] [Client thread/INFO]: [CHAT] §l23...
+[13:18:19] [Client thread/INFO]: [CHAT] §l22...
+[13:18:20] [Client thread/INFO]: [CHAT] §l21...
+[13:18:20] [Client thread/INFO]: [CHAT] §l20...
+[13:18:20] [Client thread/INFO]: [CHAT] §l19...
+[13:18:20] [Client thread/INFO]: [CHAT] §l18...
+[13:18:20] [Client thread/INFO]: [CHAT] §l17...
+[13:18:20] [Client thread/INFO]: [CHAT] §l16...
+[13:18:20] [Client thread/INFO]: [CHAT] §l15...
+[13:18:20] [Client thread/INFO]: [CHAT] §l14...
+[13:18:20] [Client thread/INFO]: [CHAT] §l13...
+[13:18:21] [Client thread/INFO]: [CHAT] §l12...
+[13:18:21] [Client thread/INFO]: [CHAT] §l11...
+[13:18:21] [Client thread/INFO]: [CHAT] §l10...
+[13:18:21] [Client thread/INFO]: [CHAT] §l9...
+[13:18:21] [Client thread/INFO]: [CHAT] §l8...
+[13:18:21] [Client thread/INFO]: [CHAT] §l7...
+[13:18:21] [Client thread/INFO]: [CHAT] §l6...
+[13:18:21] [Client thread/INFO]: [CHAT] §c§l5...
+[13:18:21] [Client thread/INFO]: [CHAT] §c§l4...
+[13:18:22] [Client thread/INFO]: [CHAT] §c§l3...
+[13:18:22] [Client thread/INFO]: [CHAT] §c§l2...
+[13:18:22] [Client thread/INFO]: [CHAT] §c§l1...
+[13:18:22] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_QUIT
+[13:18:22] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_QUIT
+[13:18:22] [Client thread/INFO]: [CHAT] §c§l0...
+[13:18:22] [Client thread/INFO]: [STDOUT]: SM: [CLIENT_STATE_MACHINE] Mission ended for reason: null world still exists: true
+[13:18:22] [Client thread/INFO]: [STDOUT]: Unpausing
+[13:18:22] [Client thread/INFO]: [STDOUT]: CLIENT request state: MISSION_ENDED
+[13:18:22] [Client thread/INFO]: [STDOUT]: CLIENT enter state: MISSION_ENDED
+[13:18:22] [Client thread/INFO]: [STDOUT]: inform the agent
+[13:18:22] [Client thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_MISSION_END
+[13:18:22] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_MISSION_END
+[13:18:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5ms behind, skipping 0 tick(s)
+[13:18:22] [Server thread/INFO]: [STDOUT]: SERVER request state: CLEAN_UP
+[13:18:22] [Server thread/INFO]: [STDOUT]: SERVER enter state: CLEAN_UP
+[13:18:22] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[13:18:22] [Client thread/INFO]: [STDOUT]: CLIENT request state: DORMANT
+[13:18:22] [Client thread/INFO]: [STDOUT]: CLIENT enter state: DORMANT
+[13:18:22] [Client thread/INFO]: [STDOUT]: JETTISONING 0 COMMANDS
+
+> Task :runClient FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':runClient'.
+> Process 'command 'C:\Program Files\Java\jdk1.8.0_333\bin\java.exe'' finished with non-zero exit value -805306369
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 3m 22s
+20 actionable tasks: 8 executed, 12 up-to-date
