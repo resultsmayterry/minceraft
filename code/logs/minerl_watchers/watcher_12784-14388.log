@@ -1,0 +1,15 @@
+[32m2022-06-06 13:48:13[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m Process watcher started between parent 12784 and child 14388 
+[32m2022-06-06 14:28:43[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m Parent is not running, hence we need terminate the child.
+[32m2022-06-06 14:28:43[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m About to reap process tree of 14388:cmd.exe:C:\Windows\System32\cmd.exe i running, owner 12784, printing process tree status in termination order:
+[32m2022-06-06 14:28:43[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m 	-7200:conhost.exe:C:\Windows\System32\conhost.exe i running, owner 15520
+[32m2022-06-06 14:28:43[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m 	-15520:java.exe:C:\Program Files\Java\jdk1.8.0_333\bin\java.exe i running, owner 18060
+[32m2022-06-06 14:28:43[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m 	-18060:java.exe:C:\Program Files\Java\jdk1.8.0_333\bin\java.exe i running, owner 14388
+[32m2022-06-06 14:28:43[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m 	-14388:cmd.exe:C:\Windows\System32\cmd.exe i running, owner 12784
+[32m2022-06-06 14:28:43[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m Trying to SIGTERM 7200:conhost.exe:C:\Windows\System32\conhost.exe i running, owner 15520
+[32m2022-06-06 14:28:43[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m Process psutil.Process(pid=7200, name='conhost.exe', status='terminated', exitcode=15, started='13:49:14') terminated with exit code None
+[32m2022-06-06 14:28:43[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m Trying to SIGTERM 15520:java.exe:C:\Program Files\Java\jdk1.8.0_333\bin\java.exe i running, owner 18060
+[32m2022-06-06 14:28:44[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m Process psutil.Process(pid=15520, name='java.exe', status='terminated', exitcode=15, started='13:49:14') terminated with exit code None
+[32m2022-06-06 14:28:44[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m Trying to SIGTERM 18060:java.exe:C:\Program Files\Java\jdk1.8.0_333\bin\java.exe i running, owner 14388
+[32m2022-06-06 14:28:44[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m Process psutil.Process(pid=18060, name='java.exe', status='terminated', exitcode=15, started='13:48:13') terminated with exit code None
+[32m2022-06-06 14:28:44[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m Trying to SIGTERM 14388:cmd.exe:C:\Windows\System32\cmd.exe i running, owner 12784
+[32m2022-06-06 14:28:44[0m [35mDESKTOP-JI7Q8OP[0m [34mprocess_watcher[13644][0m [1;30mINFO[0m Process psutil.Process(pid=14388, name='cmd.exe', status='terminated', exitcode=15, started='13:48:12') terminated with exit code None
